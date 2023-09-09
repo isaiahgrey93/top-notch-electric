@@ -1,4 +1,5 @@
 import Head from "next/head";
+import MainHero from "~/components/features/MainHero";
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
         />
       </Head>
       <main className="flex min-h-screen flex-col items-center">
-        <h1>Top Notch Electric</h1>
+        <MainHero />
       </main>
     </>
   );
