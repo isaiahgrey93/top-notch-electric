@@ -3,6 +3,7 @@ import {
   EnvelopeIcon,
   MapPinIcon,
 } from "@heroicons/react/24/outline";
+import Image from "next/image";
 import type { JSX, SVGProps, RefAttributes } from "react";
 
 type ContactIconProps = JSX.IntrinsicAttributes &
@@ -77,11 +78,14 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
-            <img
-              className="relative right-5 h-20"
-              src="/logo_name.png"
-              alt="Company Logo"
-            />
+            <div className="relative aspect-[3.09/1] h-20">
+              <Image
+                fill
+                className="relative right-5"
+                src="/logo_name.png"
+                alt="Company Logo"
+              />
+            </div>
             <div className="grid gap-2">
               <p className="text-sm leading-6 text-gray-300">
                 Top Notch Electric, a Christian company, is an electrical

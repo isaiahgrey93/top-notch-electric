@@ -6,7 +6,7 @@ export default function Example() {
   return (
     <>
       <main className="flex min-h-screen items-center justify-center">
-        <div className="bg-primary absolute top-0 -z-10 h-screen w-screen bg-opacity-50">
+        <div className="absolute top-0 -z-10 h-screen w-screen bg-primary bg-opacity-50">
           <div className="absolute top-0 h-screen w-screen blur-md">
             <Image
               alt="Sandpoint Idaho"
@@ -21,9 +21,11 @@ export default function Example() {
             404
           </p>
           <h1 className="mt-4 flex items-center text-3xl font-bold tracking-tight text-white drop-shadow-lg sm:text-4xl">
-            Sorry, we could not find the page you were looking for{" "}
-            <FaceFrownIcon className="ml-2 h-10 w-10" />
+            Sorry, we could not find the page you were looking for...
           </h1>
+          <div className="flex justify-center">
+            <FaceFrownIcon className="ml-2 h-20 w-20 text-center text-white" />
+          </div>
           <div className="mt-10 flex justify-center">
             <Link href="/" className="font-semibold leading-7 text-white">
               <span aria-hidden="true">&larr;</span> Back to home
