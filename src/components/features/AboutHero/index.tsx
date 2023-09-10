@@ -31,9 +31,9 @@ export const AboutHero = () => {
                   </Link>
                 </div>
               </div>
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+              <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
                 Electrical Contractors In Sandpoint Idaho
-              </h1>
+              </h2>
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 Top Notch Electric is a Christian based company serving the
                 Idaho Panhandle and surrounding areas.
@@ -58,7 +58,7 @@ export const AboutHero = () => {
           </div>
         </div>
       </div>
-      <div className="relative min-h-[600px] overflow-hidden bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+      <div className="relative min-h-[600px] overflow-hidden rounded-2xl rounded-bl-none bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <Image
           fill
           loading="eager"

@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function MainHero() {
   return (
     <div className="w-full">
-      <div className="relative isolate mx-auto max-w-7xl overflow-hidden bg-gray-900">
+      <div className="relative isolate mx-auto max-w-7xl overflow-hidden rounded-2xl bg-gray-900">
         <Image
           src="/flag.jpg"
           alt="Sandpoint, Idaho"
