@@ -40,9 +40,9 @@ export default function ServicesSection() {
           <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
             Services
           </h2>
-          <p className="mt-6 text-center text-lg leading-8 text-gray-600">
-            For over 25 years, we have been getting the job done right, the
-            first time...every time!
+          <p className="mx-auto mt-6 max-w-sm text-center text-lg leading-8 text-gray-600">
+            For over 25 years, we have been getting the job done right the first
+            time every time.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">

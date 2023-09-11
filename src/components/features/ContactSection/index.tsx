@@ -29,7 +29,7 @@ export default function ContactSection() {
   };
 
   return (
-    <div className="relative isolate">
+    <div className="relative isolate mx-6">
       <div className="absolute inset-y-0 left-0 -z-10 w-full overflow-hidden rounded-3xl bg-gray-100 bg-opacity-30 ring-1 ring-gray-900/10">
         <svg
           className="absolute inset-0 h-full w-full stroke-gray-200 opacity-50  [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
@@ -60,7 +60,7 @@ export default function ContactSection() {
         </svg>
       </div>
       <div className="mx-auto grid max-w-7xl grid-cols-1 px-6 lg:grid-cols-2 lg:px-8">
-        <div className="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
+        <div className="relative px-6 pb-20 pt-12 sm:pt-12 lg:static lg:px-8 lg:py-48">
           <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
             <h2 className="text-4xl font-bold tracking-tight text-gray-900 lg:text-5xl">
               Contact Us
@@ -110,14 +110,15 @@ export default function ContactSection() {
         </div>
         <form
           onSubmit={onSubmit}
-          className="flex items-center justify-center px-6 !pr-2 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48"
+          className="flex items-center justify-center px-6 !pr-2 pb-2 pt-2 sm:pb-12 lg:px-8 lg:py-48"
         >
           {!success ? (
             <fieldset
+              className="w-full"
               disabled={isLoading || success}
               style={{ opacity: isLoading || success ? 0.5 : 1 }}
             >
-              <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
+              <div className="mx-auto w-full lg:mr-0 lg:max-w-lg">
                 <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                   <div>
                     <label

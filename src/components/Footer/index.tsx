@@ -84,7 +84,7 @@ export default function Footer() {
                 contractor serving the Panhandle and surrounding areas.
               </p>
               <p className="text-sm leading-6 text-gray-300">
-                Get the job done right, the first time, every time!
+                Get the job done right the first time every time.
               </p>
             </div>
             <div className="flex space-x-6">
