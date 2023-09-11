@@ -66,9 +66,9 @@ export default function ContactSection() {
               Contact Us
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Need an estimate? Have a question? Want to tell us how we're
-              doing? Fill out the form below and we'll get back to you as soon
-              as we can.
+              Need an estimate? Have a question? Want to tell us how we&apos;re
+              doing? Fill out the form below and we&apos;ll get back to you as
+              soon as we can.
             </p>
             <dl className="mt-10 space-y-4 text-base leading-7 text-gray-600">
               <div className="flex gap-x-4">
