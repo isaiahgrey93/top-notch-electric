@@ -1,8 +1,4 @@
-import {
-  PhoneIcon,
-  EnvelopeIcon,
-  MapPinIcon,
-} from "@heroicons/react/24/outline";
+import { PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import type { JSX, SVGProps, RefAttributes } from "react";
 
@@ -35,10 +31,6 @@ const navigation = {
       name: "info@topnotchelectric.com",
       href: "mailto:info@topnotchelectric.com",
       icon: (props: ContactIconProps) => <EnvelopeIcon {...props} />,
-    },
-    {
-      name: "855 Wood View Rd, Sandpoint, ID 83864",
-      icon: (props: ContactIconProps) => <MapPinIcon {...props} />,
     },
   ],
   licenses: [
