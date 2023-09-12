@@ -110,7 +110,7 @@ export default function ContactSection() {
         </div>
         <form
           onSubmit={onSubmit}
-          className="flex items-center justify-center px-6 !pr-2 pb-2 pt-2 sm:pb-12 lg:px-8 lg:py-48"
+          className="flex items-center justify-center px-6 !pr-2 pb-6 pt-2 sm:pb-12 lg:px-8 lg:py-48"
         >
           {!success ? (
             <fieldset
